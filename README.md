@@ -1,2 +1,115 @@
-# Kunju
-Birthday 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gift Page 🎁</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('images.jpeg') repeat;
+      background-size: contain;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.85);
+      border: 4px solid gold;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    h1, h2 {
+      text-align: center;
+      color: #444;
+    }
+    .quote {
+      font-style: italic;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #555;
+    }
+    .card {
+      background: #fff;
+      border: 2px solid #FFD700;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 600px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .card::before, .card::after {
+      content: "🎉";
+      position: absolute;
+      font-size: 2rem;
+    }
+    .card::before { top: -15px; left: -15px; }
+    .card::after { bottom: -15px; right: -15px; }
+    .album {
+      margin-top: 30px;
+    }
+    .album h2 {
+      margin-bottom: 15px;
+    }
+    .photos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+    }
+    .photos img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .note {
+      text-align: center;
+      margin-top: 30px;
+      font-style: italic;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Surprise Gift 🎁</h1>
+
+    <p class="quote">
+Yep, you’re still older than me. There’s no way around it, bud!
+    </p>
+
+    <div class="card">
+      <h2>🎂 Birthday Wishes 🎂</h2>
+      <p>
+        Happy birthday 🎂 to my dear brother who I always adore.... <br>
+        Wish you will be happier and all your dreams will come true like you wished.... <br>
+        <strong>Happy birthday with a loooott of love 😘</strong>
+      </p>
+    </div>
+
+    <div class="album">
+      <h2>You are weird... But I love it 💫</h2>
+      <div class="photos">
+        <img src="Pic1.jpg" alt="Memory 1">
+<img src="Pic2.jpg" alt="Memory 2">
+<img src="Pic3.jpg" alt="Memory 3">
+<img src="Pic4.jpg" alt="Memory 4">
+<img src="Pic5.jpg" alt="Memory 5">
+<img src="Pic6.jpg" alt="Memory 6">
+<img src="Pic7.jpg" alt="Memory 7">
+<img src="Pic8.jpg" alt="Memory 8">
+<img src="Pic9.jpg" alt="Memory 9">
+<img src="Pic10.jpg" alt="Memory 10">
+      </div>
+      <p class="note">Each of these moments prove that weirdness is just another form of love 💕</p>
+    </div>
+
+    <p class="note">Made with love just for you 💛</p>
+  </div>
+</body>
+</html>
